@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-item"><span class="icon">✈️</span> Flights</a>
+                <a href="#" class="nav-item"><span class="icon">🏨</span> Hotels</a>
+                <a href="#" class="nav-item"><span class="icon">🚆</span> Trains</a>
+                <a href="#" class="nav-item"><span class="icon">🚗</span> Cabs</a>
+                <a href="#" class="nav-item"><span class="icon">🚌</span> Bus</a>
+                <a href="#" class="nav-item"><span class="icon">🏖️</span> Holidays</a>
+                <a href="#" class="nav-item"><span class="icon">💱</span> Forex</a>
+                <a href="#" class="nav-item"><span class="icon">🛡️</span> Insurance</a>
+            </div>
+            <div class="user-section">
+                <a href="">
+                    <span class="icon">🧳</span>
+                    <p>My Trips</p>
+                    <p>Mangage Booking</p>
+                
+                </a>
+                <div class="login">
+                    <a href="#" class="login-btn">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                            </span>
+                        LOGIN / SIGNUP
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="heading">
+            <h2>Book Domestic and International Flight Tickets</h2>
+        </div>
+        <div class="flights">
+            <div class="booking">
+                <div class="radio-button">
+                    <label class="radio-container">
+                        <input type="radio" name="trip-type" checked>
+                        <span class="radio-label">One-way</span>
+                    </label>
+                    <label class="radio-container">
+                        <input type="radio" name="trip-type">
+                        <span class="radio-label">Round-trip</span>
+                    </label>
+                    <label class="radio-container">
+                        <input type="radio" name="trip-type">
+                        <span class="radio-label">Multi-city</span>
+                    </label>
+                </div>
+                
+                <div class="form-group">
+                    <span class="lable1">From</span>
+                    <input type="text" placeholder="Enter city or airport" class="from">
+                    <span class="swap-icon">&#8646;</span>
+                    <span class="lable2">To</span>
+                    <input type="text" placeholder="Enter city or airport" class="to">
+                    <span class="lable3">Departure</span>
+                    <input class="calander" type="date" id="departure-date" name="departure-date" required>
+                    <span class="lable4">Return</span>
+                    <input class="calander" type="date" id="return-date" name="return-date" required>
+                    <span class="lable5">Travellers & Class</span>
+                    <select id="options" name="options" >
+                        <option value="" selected>None</option>
+                        <option value="option1">Adult</option>
+                        <option value="option2">Children</option>
+                        <option value="option3">Infants</option>
+                    </select>                
+
+                </div>
+                
+                <div class="container">
+                    <div class="benefits">
+                        <h5>MORE BENEFITS</h5>
+                        <h3>Special Fares</h3>
+                    </div>
+                    <button class="cards">
+                        <div class="card1">
+                            <div class="icon">
+                                <input type="checkbox">
+                                <img src="https://gos3.ibcdn.com/student-1687501001.png" alt="icon">
+                            </div>
+                            <div class="icon-text">
+                                <p class="names" > Student</p>
+                                <p>Extra Baggage</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="cards">
+                        <div class="card2">
+                            <div class="icon">
+                                <input type="checkbox">
+                                <img src="https://gos3.ibcdn.com/seniorCitizen-1687500989.png" alt="icon">
+                            </div>
+                            <div class="icon-text">
+                                <p class="names">Senior Citizen</p>
+                                <p>Exclusive Discounts</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="cards">
+                        <div class="card3">
+                            <div class="icon">
+                                <input type="checkbox">
+                                <img src="https://gos3.ibcdn.com/defence-1687500960.png" alt="icon">
+                            </div>
+                            <div class="icon-text">
+                                <p class="names">Arned Firces</p>
+                                <p>Exclusive Discounts</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="cards">
+                        <div class="card4">
+                            <div class="icon">
+                                <input type="checkbox">
+                                <img src="https://gos3.ibcdn.com/doctorNurses-1687500975.png" alt="icon">
+                            </div>
+                            <div class="icon-text">
+                                <p class="names">Doctors & Nurses</p>
+                                <p>Exclusive Discounts</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <button class="search-button">
+                    SEARCH FLIGHTS
+                </button>
+            </div>
+            
+        </div>
+    </header>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

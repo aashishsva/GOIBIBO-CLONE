@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2px 20px;
+    border-bottom: 2px solid #f56a00;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f56a00;
+}
+.logo img{
+    width: 110px;
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 25px;
+}
+
+.nav-item .icon {
+    margin-right: 5px;
+}
+
+.user-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 50px;
+}
+.user-section a{
+    text-decoration: none;
+}
+
+.login-btn {
+    background-color: white;
+    border: 2px solid #0077ff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* HEADING */
+.heading{
+    text-align: center;
+    padding: 20px;
+    background-color: #f56a00;
+    color: white;
+
+}
+
+/* flight booking section */
+.flights{
+    width: 100%;
+    height: px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking{
+    margin: 10px;
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.radio-container{
+    position: relative;
+    top:18px;
+    left: 45px;
+    margin: 10px;
+}
+.form-group{
+   
+    padding: 40px;
+}
+
+.form-group input{
+    width: 20%;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group .lable1{
+    position: absolute;
+    top: 195px;
+    left: 450px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 100;
+    background: #ffffff;
+    font-size: small;
+}
+.form-group .lable2{
+    position: absolute;
+    top: 195px;
+    left: 690px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 100;
+    background: #ffffff;
+    font-size: small;
+}
+.form-group .lable3{
+    position: absolute;
+    top: 195px;
+    left: 900px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 100;
+    background: #ffffff;
+    font-size: small;
+}
+.form-group .lable4{
+    position: absolute;
+    top: 195px;
+    left: 1010px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 100;
+    background: #ffffff;
+    font-size: small;
+}
+.form-group .lable5{
+    position: absolute;
+    top: 195px;
+    left: 1120px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 100;
+    background: #ffffff;
+    font-size: small;
+}
+
+.form-group .calander{
+    width: 10%;
+    height: 60px;
+}
+.form-group select{
+    width: 30%;
+    height: 60px;.
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* cards */
+.container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #EAFCF4;
+    justify-content: center;
+}
+.container .benefits h5{
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #6C38F7;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+
+}
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.card1{
+    width: 230px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.card1 .icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card1 img{
+    width: 40px;
+    height: 40px;
+    
+}
+.card1 .icon-text{
+    padding: 15px;
+    
+}
+.card1 .icon-text .names{
+    font-weight:700;
+}
+
+.card2{
+    width: 230px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.card2 .icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card2 img{
+    width: 40px;
+    height: 40px;
+    
+}
+.card2 .icon-text{
+    padding: 15px;
+    
+}
+.card2 .icon-text .names{
+    font-weight:700;
+}
+
+.card3{
+    width: 230px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.card3 .icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card3 img{
+    width: 40px;
+    height: 40px;
+    
+}
+.card3 .icon-text{
+    padding: 15px;
+    
+}
+.card3 .icon-text .names{
+    font-weight:700;
+}
+
+.card4{
+    width: 230px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.card4 .icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card4 img{
+    width: 40px;
+    height: 40px;
+    
+}
+.card4 .icon-text{
+    padding: 15px;
+    
+}
+.card4 .icon-text .names{
+    font-weight:700;
+}
+
+.booking .search-button{
+    position: relative;
+    top: 30px;
+    left: 36%;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-weight: 800;
+    font-size: medium;
+    border-radius: 40px;
+    background: #E27826;
+    border: none;
+}
+
+.booking .search-button:hover{
+    background: #e6690a;
+    color: white;
+}
