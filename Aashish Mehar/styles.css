@@ -71,6 +71,13 @@ body {
     text-decoration: none;
     margin-left: 20px;
 }
+.login-btn span{
+    position: relative;
+    top: 7px;
+    text-align: center;
+    color: #0077ff;
+    
+}
 
 /* HEADING */
 .heading{
@@ -92,7 +99,7 @@ body {
 }
 .booking{
     margin: 10px;
-    width: 60%;
+    width: 80%;
     height: 300px;
     border-radius: 20px;
     border: 1px solid #ccc;
@@ -106,8 +113,9 @@ body {
     margin: 10px;
 }
 .form-group{
-   
+   position : relative;
     padding: 40px;
+    z-index: 120;
 }
 
 .form-group input{
@@ -119,8 +127,8 @@ body {
 }
 .form-group .lable1{
     position: absolute;
-    top: 195px;
-    left: 450px;
+    top: 25px;
+    left: 50px;
     font-size: 20px;
     cursor: pointer;
     z-index: 100;
@@ -129,8 +137,8 @@ body {
 }
 .form-group .lable2{
     position: absolute;
-    top: 195px;
-    left: 690px;
+    top: 25px;
+    left: 300px;
     font-size: 20px;
     cursor: pointer;
     z-index: 100;
@@ -139,8 +147,8 @@ body {
 }
 .form-group .lable3{
     position: absolute;
-    top: 195px;
-    left: 900px;
+    top: 25px;
+    left: 540px;
     font-size: 20px;
     cursor: pointer;
     z-index: 100;
@@ -149,8 +157,8 @@ body {
 }
 .form-group .lable4{
     position: absolute;
-    top: 195px;
-    left: 1010px;
+    top: 25px;
+    left: 660px;
     font-size: 20px;
     cursor: pointer;
     z-index: 100;
@@ -159,8 +167,8 @@ body {
 }
 .form-group .lable5{
     position: absolute;
-    top: 195px;
-    left: 1120px;
+    top: 25px;
+    left: 780px;
     font-size: 20px;
     cursor: pointer;
     z-index: 100;
